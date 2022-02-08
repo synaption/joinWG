@@ -27,6 +27,7 @@ mosquitto_pub -h $server -t increment_ip_counter -m $host_id
 
 echo ""
 echo "copy the following to the server"
+echo ""
 echo "cp /etc/config/network ${host_id}_network
     echo \"config wireguard_wg0
     option description '${hostname}'
